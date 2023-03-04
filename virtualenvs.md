@@ -10,7 +10,7 @@ Using `virtualenvwrapper` stores all of your virtual environments in one place. 
 `deactivate`
 
 ## List all environments
-`lsvirtualenvs`
-Adding -l
+`lsvirtualenv`
+Adding `-b` gives brief list of environments `-l` is long form. Use `-b`
   
   
