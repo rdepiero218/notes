@@ -14,3 +14,16 @@ git push origin main
 ### To pull
 
 `git pull origin main`
+
+
+## Removing DS_Store Files
+
+`find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch`
+
+Then add it to your  `.gitignore`
+
+```
+echo .DS_Store >> .gitignore'
+git add .gitignore
+git commit -m '.DS_Store banished!'
+```
