@@ -23,7 +23,7 @@ git push origin main
 Then add it to your  `.gitignore`
 
 ```
-echo .DS_Store >> .gitignore'
+echo .DS_Store >> .gitignore
 git add .gitignore
 git commit -m '.DS_Store banished!'
 ```
