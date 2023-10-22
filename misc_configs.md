@@ -7,9 +7,9 @@ Allows for Jupyter Lab or Jupyter notebook to be opened without all the browser 
 First make sure you have a config file
 
 ### For Jupyter Lab:
-'''
+```
 jupyter lab --generate-config
-'''
+```
 Then to set it to open with Chrome in App Mode add the following to the top of 'jupyter_lab_config.py'
 ```
 #------------------------------------------------------------------------------
